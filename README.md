@@ -33,24 +33,12 @@ once — patching internal offsets, injecting guard bytes, or encapsulating payl
 
 ## Installation
 
-### Homebrew (macOS / Linux)
-
-```sh
-# coming soon
-```
-
-### Pre-built binaries
-
-Download from the [releases page](../../releases) for Linux, macOS, or Windows (amd64/arm64).
-
 ### Build from source
 
 ```sh
-git clone https://github.com/yourname/polyfile
+git clone https://github.com/nchgroup/polyfile
 cd polyfile
-make build        # produces ./polyfile
-make test         # run test suite
-make lint         # vet + staticcheck
+go build cmd/polyfile
 ```
 
 Requires Go 1.21+.
